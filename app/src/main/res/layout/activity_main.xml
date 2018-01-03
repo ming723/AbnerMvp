@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.abner.ming.abnermvp.MainActivity">
+    <TextView
+        android:id="@+id/tv_main1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ActivityDemo1"
+         />
+    <TextView
+        android:id="@+id/tv_main2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ActivityDemo1"
+        android:layout_marginTop="@dimen/dp_margin_20"
+        />
+    <TextView
+        android:id="@+id/tv_main3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ActivityHttpTest"
+        android:layout_marginTop="@dimen/dp_margin_20"
+        />
+
+
+</LinearLayout>
